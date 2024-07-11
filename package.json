@@ -1,8 +1,8 @@
 {
-  "name": "basetion",
+  "name": "bastion",
   "version": "0.1.0",
   "bin": {
-    "basetion": "bin/basetion.js"
+    "bastion": "bin/bastion.js"
   },
   "scripts": {
     "build": "tsc",
@@ -13,13 +13,14 @@
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "20.12.7",
+    "aws-cdk": "2.138.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.2",
-    "aws-cdk": "2.138.0",
     "ts-node": "^10.9.2",
     "typescript": "~5.4.5"
   },
   "dependencies": {
+    "@cdklabs/cdk-validator-cfnguard": "^0.0.58",
     "aws-cdk-lib": "2.138.0",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"
